@@ -1,4 +1,4 @@
-package com.example.chatatoo
+package com.kamildolny.chatatoo
 
 import io.flutter.embedding.android.FlutterActivity
 
