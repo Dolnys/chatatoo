@@ -18,13 +18,13 @@ class _WelcomeScreenState extends State<WelcomeScreen>
   void initState() {
     super.initState();
     controller = AnimationController(
-      duration: const Duration(seconds: 3),
+      duration: const Duration(seconds: 2),
       vsync: this,
     );
     animation = ColorTween(
-            begin: const Color.fromARGB(255, 106, 106, 106),
-            end: const Color.fromARGB(255, 238, 235, 238))
-        .animate(controller);
+      begin: const Color.fromARGB(255, 106, 106, 106),
+      end: const Color.fromARGB(255, 238, 235, 238),
+    ).animate(controller);
     controller.forward();
 
     controller.addListener(() {
