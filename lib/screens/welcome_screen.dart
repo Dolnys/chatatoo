@@ -55,7 +55,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
                     tag: 'logo',
                     child: SizedBox(
                       child: Image.asset('images/logo.png'),
-                      height: 60.0,
+                      height: 200.0,
                     ),
                   ),
                 ),
